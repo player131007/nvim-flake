@@ -1,0 +1,38 @@
+name: update_deps
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 17 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update_deps:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.2
+      - uses: DeterminateSystems/nix-installer-action@v10
+      - name: setup git
+        run: | 
+          git config user.email tcm4095@gmail.com
+          git config user.name "GitHub Actions"
+          git checkout -b updates-${{ github.run_id }}
+      - name: update
+        run: |
+          nix flake update --quiet --no-warn-dirty --log-format raw 2>&1 | tail -n +2
+          nix run nixpkgs#niv -- update
+          git commit -am 'update $(date -I)'
+          git push -u origin updates-${{ github.run_id }}
+          
+          PR=$(gh pr create \
+            --base master \
+            --body "" \
+            --fill \
+            --title "Auto update $(date -I)")
+
+          gh pr merge $PR --squash --delete-branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
