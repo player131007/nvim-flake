@@ -59,6 +59,18 @@
         "url": "https://github.com/saadparwaiz1/cmp_luasnip/archive/05a9ab28b53f71d1aece421ef32fee2cb857a843.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "dressing.nvim": {
+        "branch": "master",
+        "description": "Neovim plugin to improve the default vim.ui interfaces",
+        "homepage": "",
+        "owner": "stevearc",
+        "repo": "dressing.nvim",
+        "rev": "18e5beb3845f085b6a33c24112b37988f3f93c06",
+        "sha256": "0pvkm9s0lg0vlk7qbn1sjf6sis3i3xba1824xml631bg6hahw37l",
+        "type": "tarball",
+        "url": "https://github.com/stevearc/dressing.nvim/archive/18e5beb3845f085b6a33c24112b37988f3f93c06.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "hardtime.nvim": {
         "branch": "main",
         "description": "A Neovim plugin helping you establish good command workflow and habit",
