@@ -30,7 +30,7 @@ jobs:
             local old=$(eval $getRevisions)
             $update >/dev/null 2>&1
             local new=$(eval $getRevisions)
-          echo "[$old, $new]" | jq -r '. as [$old, $new] | $old | keys_unsorted | map(select($old[.]!=$new[.]) | "\(.): [\($old[.])..\($new[.])](https://github.com/\(.)/compare/\($old[.])...\($new[.]))")[]'
+            echo "[$old, $new]" | jq -r '. as [$old, $new] | $old | keys_unsorted | map(select($old[.]!=$new[.]) | "\(.): [\($old[.])..\($new[.])](https://github.com/\(.)/compare/\($old[.])...\($new[.]))")[]'
           }
           nix profile install nixpkgs#jq nixpkgs#niv
 
