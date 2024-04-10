@@ -28,6 +28,9 @@ keymap.set('n', "<leader>gi", function() trouble.toggle "lsp_implementations" en
 keymap.set('n', "<leader>td", function() trouble.toggle "lsp_type_definitions" end)
 
 -- luasnip
+require("luasnip.config").set_config {
+    update_events = { "TextChanged", "TextChangedI" }
+}
 require("luasnip.loaders.from_lua").load()
 
 -- comment.nvim

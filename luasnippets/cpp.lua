@@ -78,7 +78,7 @@ s(
             }
         ]=],
         {
-            i(1, vim.fn.expand("%:t:r")),
+            d(1, function() return sn(nil, i(1, vim.fn.expand "%:t:r")) end),
             i(2),
             i(0)
         },

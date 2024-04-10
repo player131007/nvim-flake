@@ -25,12 +25,12 @@ cmp.setup {
         ["<Esc>"] = mapping.close(),
         ["<C-f>"] = mapping.scroll_docs(4),
         ["<C-d>"] = mapping.scroll_docs(-4),
-        ["<Tab>"] = function(fallback)
+        ["<Tab>"] = mapping(function(fallback)
             if cmp.visible() then cmp.select_next_item()
             elseif luasnip.expand_or_jumpable() then luasnip.expand_or_jump()
             else fallback()
             end
-        end,
+        end, { 'i', 's' }),
         ["<S-Tab>"] = function(fallback)
             if cmp.visible() then cmp.select_prev_item()
             elseif luasnip.jumpable(-1) then luasnip.jump(-1)
