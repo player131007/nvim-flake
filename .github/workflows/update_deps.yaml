@@ -22,14 +22,48 @@ jobs:
           git checkout -b updates-${{ github.run_id }}
       - name: update
         run: |
-          nix flake update --quiet --no-warn-dirty --log-format raw 2>&1 | tail -n +2
-          nix run nixpkgs#niv -- update
-          git commit -am "update $(date -I)"
+          getUpdates() {
+            local getRevisions=$1
+            local update=$2
+
+            # i have no idea why this works
+            local old=$(eval $getRevisions)
+            $update >/dev/null 2>&1
+            local new=$(eval $getRevisions)
+          echo "[$old, $new]" | jq -r '. as [$old, $new] | $old | keys_unsorted | map(select($old[.]!=$new[.]) | "\(.): [\($old[.])..\($new[.])](https://github.com/\(.)/compare/\($old[.])...\($new[.]))")[]'
+          }
+          nix profile install nixpkgs#jq nixpkgs#niv
+
+          flake_updates=$(getUpdates \
+            "jq '.nodes | [.[.root.inputs[]].locked] | map({ \"\(.owner)/\(.repo)\": .rev[:7] }) | add' flake.lock" \
+            "nix flake update")
+          niv_updates=$(getUpdates \
+            "jq 'map({\"\(.owner)/\(.repo)\": .rev[:7]}) | add' nix/sources.json" \
+            "niv update")
+
+          if [ -z "`git status --porcelain`" ]; then
+            exit 0
+          fi
+
+          MSG=""
+          if [ -n "$flake_updates" ]; then
+            MSG="$MSG
+          Flake updates:
+          $flake_updates"
+          fi
+          if [ -n "$niv_updates" ]; then
+            MSG="$MSG
+          
+          Niv updates:
+          $niv_updates"
+          fi
+
+          git commit -am "update $(date -I)" -m "$MSG"
           git push -u origin updates-${{ github.run_id }}
           
           PR=$(gh pr create \
             --base master \
-            --body "" \
+            --body "$MSG" \
             --fill \
             --title "Auto update $(date -I)")
 
