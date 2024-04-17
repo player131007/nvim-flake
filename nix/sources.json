@@ -17,10 +17,10 @@
         "homepage": "",
         "owner": "L3MON4D3",
         "repo": "LuaSnip",
-        "rev": "1d67ba34e93f74eefffc92a15d148a1bc736190e",
-        "sha256": "1yk65gpyszg2w060q5fb693zqzgp3x598r930v1fl9hxdvhrk8j5",
+        "rev": "03c8e67eb7293c404845b3982db895d59c0d1538",
+        "sha256": "0bbackpym8k11gm32iwwzqjnqanpralanfjkl4lrs33xl7lsylqk",
         "type": "tarball",
-        "url": "https://github.com/L3MON4D3/LuaSnip/archive/1d67ba34e93f74eefffc92a15d148a1bc736190e.tar.gz",
+        "url": "https://github.com/L3MON4D3/LuaSnip/archive/03c8e67eb7293c404845b3982db895d59c0d1538.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "base16-nvim": {
@@ -77,10 +77,10 @@
         "homepage": "",
         "owner": "m4xshen",
         "repo": "hardtime.nvim",
-        "rev": "83228b9ffcfc83ed42b14add7ed873df91f6adde",
-        "sha256": "0rp92scbsj6274pnv3b3m9mpy3iscg5rmvaxqywbs3bxdwlaj29m",
+        "rev": "eaf4bc31b86419c26ad7b3a142dd36ca545ca2e4",
+        "sha256": "0z2ppcfqd9zkhmr8xkckq7a7a8pjgma0f6jyyzg83yb3f4443yhw",
         "type": "tarball",
-        "url": "https://github.com/m4xshen/hardtime.nvim/archive/83228b9ffcfc83ed42b14add7ed873df91f6adde.tar.gz",
+        "url": "https://github.com/m4xshen/hardtime.nvim/archive/eaf4bc31b86419c26ad7b3a142dd36ca545ca2e4.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "lualine.nvim": {
