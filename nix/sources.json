@@ -209,10 +209,10 @@
         "homepage": "",
         "owner": "nvim-lua",
         "repo": "plenary.nvim",
-        "rev": "8aad4396840be7fc42896e3011751b7609ca4119",
-        "sha256": "06ahw1mxjp5g1kbsdza29hyawr4blqzw3vb9d4rg2d5qmnwcbky0",
+        "rev": "5129a3693c482fcbc5ab99a7706ffc4360b995a0",
+        "sha256": "0z8frdjcnc547bx3h9dv0b51ghddb2mpa6j664xqj628gbbarcd2",
         "type": "tarball",
-        "url": "https://github.com/nvim-lua/plenary.nvim/archive/8aad4396840be7fc42896e3011751b7609ca4119.tar.gz",
+        "url": "https://github.com/nvim-lua/plenary.nvim/archive/5129a3693c482fcbc5ab99a7706ffc4360b995a0.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "trouble.nvim": {
