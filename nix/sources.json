@@ -65,10 +65,10 @@
         "homepage": "",
         "owner": "stevearc",
         "repo": "dressing.nvim",
-        "rev": "3858609d683ca395ebce2f01d42e031d95a5eccc",
-        "sha256": "17pxwp7flhgkms9ay57grkdmh92kh3xx6lfzsgqjvqm740qlmvkj",
+        "rev": "5162edb1442a729a885c45455a07e9a89058be2f",
+        "sha256": "04h3q6ls7r9kx17l1kmcb82s4220sd98rxfm0w9cif4dq1gzpap3",
         "type": "tarball",
-        "url": "https://github.com/stevearc/dressing.nvim/archive/3858609d683ca395ebce2f01d42e031d95a5eccc.tar.gz",
+        "url": "https://github.com/stevearc/dressing.nvim/archive/5162edb1442a729a885c45455a07e9a89058be2f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "hardtime.nvim": {
@@ -149,10 +149,10 @@
         "homepage": "",
         "owner": "neovim",
         "repo": "nvim-lspconfig",
-        "rev": "94874383aea04f259a81cf9e40750be60d5bcb30",
-        "sha256": "0xscw3ml6q63p22v2d5qcqjzcicv5s6i85yiglgpfqwsp034f84p",
+        "rev": "cfa386fc4027e847156ee16141ea1f4c0bc2f0a4",
+        "sha256": "1j8538jh53jg7n40ml11g1nxvlchyijzjy3kb0yyxnk3f8i2iljm",
         "type": "tarball",
-        "url": "https://github.com/neovim/nvim-lspconfig/archive/94874383aea04f259a81cf9e40750be60d5bcb30.tar.gz",
+        "url": "https://github.com/neovim/nvim-lspconfig/archive/cfa386fc4027e847156ee16141ea1f4c0bc2f0a4.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-notify": {
@@ -197,10 +197,10 @@
         "homepage": "",
         "owner": "stevearc",
         "repo": "overseer.nvim",
-        "rev": "c1bbc2646b3bc1a0066cff033d3f9d1b754c2cf1",
-        "sha256": "1kbcmwlmmr56m2yf7f5avyah4ch6gj50m3ws1sq3rp9k19h2sprh",
+        "rev": "89942ad366c8a9bb93f82411de17dc7c644b4e3b",
+        "sha256": "1qs3l0ymcfc223yqk44vqwgvyr4brrd5pz1h7l9lk7p4hy34s9rc",
         "type": "tarball",
-        "url": "https://github.com/stevearc/overseer.nvim/archive/c1bbc2646b3bc1a0066cff033d3f9d1b754c2cf1.tar.gz",
+        "url": "https://github.com/stevearc/overseer.nvim/archive/89942ad366c8a9bb93f82411de17dc7c644b4e3b.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "plenary.nvim": {
