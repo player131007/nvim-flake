@@ -17,10 +17,10 @@
         "homepage": "",
         "owner": "L3MON4D3",
         "repo": "LuaSnip",
-        "rev": "72eea98b1900013e0cb214f29b898c8d91564930",
-        "sha256": "1hp2hmb7ry0rn07pqj5bk2im55dav42ffissbfppjrpm07i6m9lx",
+        "rev": "8f3d3465ba5c7ade0a8adb41eca5736f291a3fa8",
+        "sha256": "13cfh74zpq6l565xzxkbfva2jysfz57cs5d1jjmlgzaamhkzkhpr",
         "type": "tarball",
-        "url": "https://github.com/L3MON4D3/LuaSnip/archive/72eea98b1900013e0cb214f29b898c8d91564930.tar.gz",
+        "url": "https://github.com/L3MON4D3/LuaSnip/archive/8f3d3465ba5c7ade0a8adb41eca5736f291a3fa8.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "base16-nvim": {
@@ -149,10 +149,10 @@
         "homepage": "",
         "owner": "neovim",
         "repo": "nvim-lspconfig",
-        "rev": "cfa386fc4027e847156ee16141ea1f4c0bc2f0a4",
-        "sha256": "1j8538jh53jg7n40ml11g1nxvlchyijzjy3kb0yyxnk3f8i2iljm",
+        "rev": "da338c8d7e33fbb810368a808781f56224b4fea7",
+        "sha256": "01p4ilychm1pkw48zirdncr35491qgsb5z4f1id43sy967396fjk",
         "type": "tarball",
-        "url": "https://github.com/neovim/nvim-lspconfig/archive/cfa386fc4027e847156ee16141ea1f4c0bc2f0a4.tar.gz",
+        "url": "https://github.com/neovim/nvim-lspconfig/archive/da338c8d7e33fbb810368a808781f56224b4fea7.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-notify": {
@@ -173,10 +173,10 @@
         "homepage": "",
         "owner": "nvim-treesitter",
         "repo": "nvim-treesitter-context",
-        "rev": "ba4289ad345ececd335a9cdd7b9616fd0bb6be92",
-        "sha256": "0cfklfz2anc8021qi0q8dbrdmnndnd073azgsiwaagbh75s3sgh1",
+        "rev": "4fe0a54e86859744968e1a5c7867b49c86855774",
+        "sha256": "10ajrdri5bzkf4cssfsp0j0m7g3flg27015v594k862h14m9s2s0",
         "type": "tarball",
-        "url": "https://github.com/nvim-treesitter/nvim-treesitter-context/archive/ba4289ad345ececd335a9cdd7b9616fd0bb6be92.tar.gz",
+        "url": "https://github.com/nvim-treesitter/nvim-treesitter-context/archive/4fe0a54e86859744968e1a5c7867b49c86855774.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-web-devicons": {
