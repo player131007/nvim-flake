@@ -40,4 +40,4 @@ lspconfig.clangd.setup {
 }
 
 lspconfig.lua_ls.setup {}
-lspconfig.nil_ls.setup {}
+lspconfig.nixd.setup {}

@@ -8,8 +8,8 @@
 
 , clang-tools
 , lua-language-server
-, nil
 , llvmPackages
+, nixd
 
 , runtimepath ? []
 # rose pine colorscheme
@@ -64,7 +64,7 @@ in neovim.overrideAttrs (prev: {
         (lib.makeBinPath [
             clang-tools
             lua-language-server
-            nil
+            nixd
             llvmPackages.libstdcxxClang
 
             # llvm-symbolizer
