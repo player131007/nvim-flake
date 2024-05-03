@@ -1,3 +1,12 @@
+-- nlsp-settings
+---@diagnostic disable-next-line: missing-fields
+require("nlspsettings").setup {
+    nvim_notify = {
+        enable = true,
+        timeout = 3000
+    }
+}
+
 -- neodev
 require("neodev").setup {
     setup_jsonls = false,

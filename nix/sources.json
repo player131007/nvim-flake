@@ -107,6 +107,18 @@
         "url": "https://github.com/folke/neodev.nvim/archive/ce9a2e8eaba5649b553529c5498acb43a6c317cd.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "nlsp-settings.nvim": {
+        "branch": "main",
+        "description": "A plugin for setting Neovim LSP with JSON or YAML files",
+        "homepage": "",
+        "owner": "tamago324",
+        "repo": "nlsp-settings.nvim",
+        "rev": "73d6f1992b9df7578d0cf5ce02d745cf445ab7c5",
+        "sha256": "05a904fjfc972lmia7x1dhn58h5sy0m0zjzhd2ay899jilw281bg",
+        "type": "tarball",
+        "url": "https://github.com/tamago324/nlsp-settings.nvim/archive/73d6f1992b9df7578d0cf5ce02d745cf445ab7c5.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "nui.nvim": {
         "branch": "main",
         "description": "UI Component Library for Neovim.",
