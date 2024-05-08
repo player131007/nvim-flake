@@ -23,8 +23,7 @@ return {
                 "on_exit_set_status",
                 { "on_complete_dispose", timeout = 120 },
                 "unique",
-                "on_start_open_vsplit",
-                "notify_duration"
+                "cpp_run"
             }
         }
     end,
