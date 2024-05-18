@@ -17,10 +17,10 @@
         "homepage": "",
         "owner": "L3MON4D3",
         "repo": "LuaSnip",
-        "rev": "03c607c2bd4db0238d8f93a6393ffbd931466390",
-        "sha256": "0mp1wyig6vmahscb825b4mwbj2d40cics9byc9qag3alx61d3m8n",
+        "rev": "de1a287c9cb525ae52bc846e8f6207e5ef1da5ac",
+        "sha256": "1acqpdhnzb4rngrf4gzizkb2nv98s3n1iwizh4vwcrafcdd15cql",
         "type": "tarball",
-        "url": "https://github.com/L3MON4D3/LuaSnip/archive/03c607c2bd4db0238d8f93a6393ffbd931466390.tar.gz",
+        "url": "https://github.com/L3MON4D3/LuaSnip/archive/de1a287c9cb525ae52bc846e8f6207e5ef1da5ac.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "base16-nvim": {
@@ -113,10 +113,10 @@
         "homepage": "",
         "owner": "tamago324",
         "repo": "nlsp-settings.nvim",
-        "rev": "103e764d3e733b89375cb7f877a5b70b0e0e125f",
-        "sha256": "10pw7c8fhqljdi65xpn19iwxfsbd4gfd0nxzyqjxa4xl3w9dyywk",
+        "rev": "86076bac285a5c180abbc99156d800ddf075a7ae",
+        "sha256": "01kznsdjxllhvwmxzrjr8jdi15wy6ci1pffb0cr9payacxvk5dy5",
         "type": "tarball",
-        "url": "https://github.com/tamago324/nlsp-settings.nvim/archive/103e764d3e733b89375cb7f877a5b70b0e0e125f.tar.gz",
+        "url": "https://github.com/tamago324/nlsp-settings.nvim/archive/86076bac285a5c180abbc99156d800ddf075a7ae.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nui.nvim": {
@@ -125,10 +125,10 @@
         "homepage": "",
         "owner": "MunifTanjim",
         "repo": "nui.nvim",
-        "rev": "a3597dc88b53489d3fddbddbbd13787355253bb0",
-        "sha256": "1sg0b1vq6cggxw9vif7slp2362rw5xz2a0snhhmzz1frd2ckr72v",
+        "rev": "b1b3dcd6ed8f355c78bad3d395ff645be5f8b6ae",
+        "sha256": "0i4pf0rrdyc0s41x0cfzvy1q5dxg3q0gl2wzmzir8ra27m2ma595",
         "type": "tarball",
-        "url": "https://github.com/MunifTanjim/nui.nvim/archive/a3597dc88b53489d3fddbddbbd13787355253bb0.tar.gz",
+        "url": "https://github.com/MunifTanjim/nui.nvim/archive/b1b3dcd6ed8f355c78bad3d395ff645be5f8b6ae.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-autopairs": {
@@ -161,10 +161,10 @@
         "homepage": "",
         "owner": "neovim",
         "repo": "nvim-lspconfig",
-        "rev": "a284b14b3a9c4851f900286cd7eb68e3a8f90b1c",
-        "sha256": "1l8qbka2ykjyr0m2qqndr64b5kxr3dkn04zkdklx9hc4s1jb5ids",
+        "rev": "6d2ae9fdc3111a6e8fd5db2467aca11737195a30",
+        "sha256": "1vsri2p7prbm336b08hkjc78jdv5bw79kiy3kkqjhk3nigqavxir",
         "type": "tarball",
-        "url": "https://github.com/neovim/nvim-lspconfig/archive/a284b14b3a9c4851f900286cd7eb68e3a8f90b1c.tar.gz",
+        "url": "https://github.com/neovim/nvim-lspconfig/archive/6d2ae9fdc3111a6e8fd5db2467aca11737195a30.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-notify": {
