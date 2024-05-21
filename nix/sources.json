@@ -113,10 +113,10 @@
         "homepage": "",
         "owner": "tamago324",
         "repo": "nlsp-settings.nvim",
-        "rev": "08b18f47bec4b30fd4369503d15955dd6393dcec",
-        "sha256": "1fysja6gky4gwnqbn3y0gdbzncbm16bajicwpimdamxwg3pr7y4g",
+        "rev": "d92035e6c05cded5f1a7458b57506adbf29a5c9c",
+        "sha256": "1xidbq2bpfwvwmqa89l8bralsc595qd7xkzffqay2x0967pn2apn",
         "type": "tarball",
-        "url": "https://github.com/tamago324/nlsp-settings.nvim/archive/08b18f47bec4b30fd4369503d15955dd6393dcec.tar.gz",
+        "url": "https://github.com/tamago324/nlsp-settings.nvim/archive/d92035e6c05cded5f1a7458b57506adbf29a5c9c.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nui.nvim": {
@@ -161,10 +161,10 @@
         "homepage": "",
         "owner": "neovim",
         "repo": "nvim-lspconfig",
-        "rev": "9bda20fb967075355f253911bc066a8b5a03c77e",
-        "sha256": "05y3gnfi4wqi521i2m481gc4ay6j5vcww18c8jpn6bj42slgl6z3",
+        "rev": "0b8165cf95806bc4bb8f745bb0c92021b2ed4b98",
+        "sha256": "1xs2w7pjq0yhd9i5rc28b50h69kgf3xy1dhmd38avladkxmpp0ky",
         "type": "tarball",
-        "url": "https://github.com/neovim/nvim-lspconfig/archive/9bda20fb967075355f253911bc066a8b5a03c77e.tar.gz",
+        "url": "https://github.com/neovim/nvim-lspconfig/archive/0b8165cf95806bc4bb8f745bb0c92021b2ed4b98.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-notify": {
@@ -221,10 +221,10 @@
         "homepage": "",
         "owner": "nvim-lua",
         "repo": "plenary.nvim",
-        "rev": "b5c8de02a44ffeabff678090edd6a132ff8ab77d",
-        "sha256": "0flr90g6qrlyq21v1x7841v29lh511xiafbspg8gpz1pmkm34zk9",
+        "rev": "a3e3bc82a3f95c5ed0d7201546d5d2c19b20d683",
+        "sha256": "0n2p8krzwiw682f0yb6n8faamffpp336rjy50pbqf3jmc6czd5z4",
         "type": "tarball",
-        "url": "https://github.com/nvim-lua/plenary.nvim/archive/b5c8de02a44ffeabff678090edd6a132ff8ab77d.tar.gz",
+        "url": "https://github.com/nvim-lua/plenary.nvim/archive/a3e3bc82a3f95c5ed0d7201546d5d2c19b20d683.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "trouble.nvim": {
