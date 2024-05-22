@@ -33,9 +33,6 @@ require("luasnip.config").set_config {
 }
 require("luasnip.loaders.from_lua").load()
 
--- comment.nvim
-require("Comment").setup()
-
 -- hardtime.nvim
 require("hardtime").setup {
     restricted_keys = {
