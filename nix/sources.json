@@ -113,10 +113,10 @@
         "homepage": "",
         "owner": "tamago324",
         "repo": "nlsp-settings.nvim",
-        "rev": "5281be848501b334445fba865accf996f5625347",
-        "sha256": "1cwkdinqwl1w7a0smx9mc7vdmvmny7qh6gnxqxamirz7a0npy3ic",
+        "rev": "2090cb57a4b730233690cd957fa151ed37c3fe9f",
+        "sha256": "1z9jmyg7xlh9qpnz4i36dyhs6zr7q5smmn8x7l2z7xkhsb7z1jzc",
         "type": "tarball",
-        "url": "https://github.com/tamago324/nlsp-settings.nvim/archive/5281be848501b334445fba865accf996f5625347.tar.gz",
+        "url": "https://github.com/tamago324/nlsp-settings.nvim/archive/2090cb57a4b730233690cd957fa151ed37c3fe9f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nui.nvim": {
@@ -197,10 +197,10 @@
         "homepage": "",
         "owner": "nvim-tree",
         "repo": "nvim-web-devicons",
-        "rev": "e37bb1feee9e7320c76050a55443fa843b4b6f83",
-        "sha256": "0kxj9xj94zln8ah2i0r09p0c8prn0rs1vwgf5dvmjn3j8m4x3nnn",
+        "rev": "b77921fdc44833c994fdb389d658ccbce5490c16",
+        "sha256": "1zn4qn6xz0pn3wcxd1x4j1cw7h41qkvw02qjmil71sjrsnffqrky",
         "type": "tarball",
-        "url": "https://github.com/nvim-tree/nvim-web-devicons/archive/e37bb1feee9e7320c76050a55443fa843b4b6f83.tar.gz",
+        "url": "https://github.com/nvim-tree/nvim-web-devicons/archive/b77921fdc44833c994fdb389d658ccbce5490c16.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "overseer.nvim": {
