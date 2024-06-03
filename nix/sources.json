@@ -71,6 +71,18 @@
         "url": "https://github.com/m4xshen/hardtime.nvim/archive/e56017507a5bfd973a21f125ec7471041b266cf8.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "lazydev.nvim": {
+        "branch": "main",
+        "description": "Faster LuaLS setup for Neovim",
+        "homepage": "",
+        "owner": "folke",
+        "repo": "lazydev.nvim",
+        "rev": "9dddfbfc4ec617e4723f1ca59b4623dc1fd5765a",
+        "sha256": "1r61sdq7xpbhzparaakfxpr7rq81gms1mb9marjc1vkyxlqsb4hd",
+        "type": "tarball",
+        "url": "https://github.com/folke/lazydev.nvim/archive/9dddfbfc4ec617e4723f1ca59b4623dc1fd5765a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "lualine.nvim": {
         "branch": "master",
         "description": "A blazing fast and easy to configure neovim statusline plugin written in pure lua.",
