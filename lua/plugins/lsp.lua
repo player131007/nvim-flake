@@ -7,22 +7,6 @@ require("nlspsettings").setup {
     }
 }
 
--- neodev
-require("neodev").setup {
-    setup_jsonls = false,
-
-    ---@param root_dir string
-    ---@param library table
-    override = function(root_dir, library)
-        if root_dir:find(vim.fn.expand('~').."/nvim-flake", 1, true) == 1 then
-            library.enabled = true
-            library.runtime = true
-            library.types = true
-            library.plugins = true
-        end
-    end
-}
-
 -- nvim-lspconfig
 
 -- i want my bordered window
