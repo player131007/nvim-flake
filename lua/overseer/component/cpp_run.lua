@@ -1,4 +1,4 @@
-local uv = vim.loop
+local uv = vim.uv
 
 local function get_effective_line_count(bufnr)
     local count = vim.api.nvim_buf_line_count(bufnr)
