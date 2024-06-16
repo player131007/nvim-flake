@@ -77,10 +77,10 @@
         "homepage": "",
         "owner": "folke",
         "repo": "lazydev.nvim",
-        "rev": "7cbb524c85f87017df9c1ea2377a1d840ad8ed51",
-        "sha256": "034abfj3rskgqqcynw6mz61bhjmq8x8qn6f4lq6wvyhzhkfplaqb",
+        "rev": "6184ebbbc8045d70077659b7d30c705a588dc62f",
+        "sha256": "1kj3p5x7h8k1xp8m5pxjkzbfigcbrschgm1kzlc3qkv0py3i5k5h",
         "type": "tarball",
-        "url": "https://github.com/folke/lazydev.nvim/archive/7cbb524c85f87017df9c1ea2377a1d840ad8ed51.tar.gz",
+        "url": "https://github.com/folke/lazydev.nvim/archive/6184ebbbc8045d70077659b7d30c705a588dc62f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "lualine.nvim": {
@@ -149,10 +149,10 @@
         "homepage": "",
         "owner": "neovim",
         "repo": "nvim-lspconfig",
-        "rev": "37f362ef42d1a604d332e8d3d7d47593852b4313",
-        "sha256": "170ma4zpp69kh0kll1qdragbsv68cp63dh79di47vn9ckglcvnb7",
+        "rev": "bd7c76375a511994c9ca8d69441f134dc10ae3bd",
+        "sha256": "1lrm7zm25qig7lfq2zw8xdkyw7p6hs46axia9fhr3dk42j53rm84",
         "type": "tarball",
-        "url": "https://github.com/neovim/nvim-lspconfig/archive/37f362ef42d1a604d332e8d3d7d47593852b4313.tar.gz",
+        "url": "https://github.com/neovim/nvim-lspconfig/archive/bd7c76375a511994c9ca8d69441f134dc10ae3bd.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-notify": {
@@ -221,10 +221,10 @@
         "homepage": "",
         "owner": "folke",
         "repo": "trouble.nvim",
-        "rev": "09380a8ed0694dbfbbcf59f9eaac499e259cb75c",
-        "sha256": "1qgyj6k3rfps4j31g4siw13ddkf2m7bqfbypdwshlwcy7chccj4s",
+        "rev": "58a3acfc6d8d819324dab4c87068596319032e64",
+        "sha256": "0vs7s7byz80mdww86icvgk7ksvbbgm67afiw8vn19ghf2hr78s8r",
         "type": "tarball",
-        "url": "https://github.com/folke/trouble.nvim/archive/09380a8ed0694dbfbbcf59f9eaac499e259cb75c.tar.gz",
+        "url": "https://github.com/folke/trouble.nvim/archive/58a3acfc6d8d819324dab4c87068596319032e64.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
