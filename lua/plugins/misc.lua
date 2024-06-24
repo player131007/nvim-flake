@@ -21,11 +21,30 @@ require('nvim-autopairs').setup {
 
 -- trouble.nvim
 local trouble = require 'trouble'
-keymap.set('n', "<leader>xd", function() trouble.toggle "document_diagnostics" end)
-keymap.set('n', "<leader>gr", function() trouble.toggle "lsp_references" end)
-keymap.set('n', "<leader>gd", function() trouble.toggle "lsp_definitions" end)
-keymap.set('n', "<leader>gi", function() trouble.toggle "lsp_implementations" end)
-keymap.set('n', "<leader>td", function() trouble.toggle "lsp_type_definitions" end)
+trouble.setup {
+    focus = true,
+    auto_jump = true,
+    preview = {
+        type = "float",
+        relative = "editor",
+        border = "rounded",
+        title = "Preview",
+        title_pos = "center",
+        position = { 0, -2 },
+        size = { width = 0.3, height = 0.3 },
+        zindex = 200,
+    },
+    modes = {
+        buffer_diagnostics = {
+            mode = "diagnostics",
+            filter = { buf = 0 }
+        }
+    }
+}
+keymap.set("n", "<leader>xx", function() trouble.toggle "diagnostics" end)
+keymap.set("n", "<leader>xd", function() trouble.toggle "buffer_diagnostics" end)
+keymap.set("n", "<leader>gd", function() trouble.toggle "lsp_definition" end)
+keymap.set("n", "<leader>gr", function() trouble.toggle "lsp_references" end)
 
 -- luasnip
 require("luasnip.config").set_config {
