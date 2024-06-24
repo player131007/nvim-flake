@@ -83,6 +83,18 @@
         "url": "https://github.com/folke/lazydev.nvim/archive/6184ebbbc8045d70077659b7d30c705a588dc62f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "lsp-overloads.nvim": {
+        "branch": "main",
+        "description": "Extends the native nvim-lsp handlers to allow easier navigation through method overloads.",
+        "homepage": "",
+        "owner": "Issafalcon",
+        "repo": "lsp-overloads.nvim",
+        "rev": "78f4cf53ff72a234d7903c1d41872c8b21c6007b",
+        "sha256": "03791qzm3qv2gw176bwki4dmizjy3myzdm2c62y4hjafx4y9mn8d",
+        "type": "tarball",
+        "url": "https://github.com/Issafalcon/lsp-overloads.nvim/archive/78f4cf53ff72a234d7903c1d41872c8b21c6007b.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "lualine.nvim": {
         "branch": "master",
         "description": "A blazing fast and easy to configure neovim statusline plugin written in pure lua.",

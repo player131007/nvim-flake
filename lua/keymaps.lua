@@ -18,11 +18,24 @@ keymap.set('n', "]d", vim.diagnostic.goto_next)
 vim.api.nvim_create_autocmd("LspAttach", {
     group = vim.api.nvim_create_augroup("LspAttached", {}),
     callback = function(args)
-        local opts = { buffer = args.buf }
+        local opts = { buffer = args.buf, silent = true }
+        local client = vim.lsp.get_client_by_id(args.data.client_id)
 
         keymap.set('n', 'K', vim.lsp.buf.hover, opts)
         keymap.set('n', "<F2>", vim.lsp.buf.rename, opts)
         keymap.set({ 'n', 'v' }, "<leader>ca", vim.lsp.buf.code_action, opts)
-        keymap.set('i', "<C-k>", vim.lsp.buf.signature_help, opts)
+
+        require("lsp-overloads").setup(client, {
+            display_automatically = false,
+            silent = false,
+            keymaps = {
+                close_signature = "<C-s>",
+                previous_signature = "<C-h>",
+                next_signature = "<C-l>",
+                previous_parameter = "<C-j>",
+                next_parameter = "<C-k>",
+            }
+        })
+        keymap.set({ 'n', 'i' }, "<C-s>", "<cmd>LspOverloadsSignature<CR>", opts)
     end
 })
