@@ -12,7 +12,7 @@
 , nixd
 
 , runtimepath ? []
-# rose pine colorscheme
+# base16/base24 colorscheme
 , colorscheme ? {
     base00 = "191724";
     base01 = "1f1d2e";
