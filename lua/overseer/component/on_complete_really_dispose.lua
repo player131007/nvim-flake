@@ -1,4 +1,4 @@
-local STATUS = require('overseer.constants').STATUS
+local STATUS = require("overseer.constants").STATUS
 
 ---@type overseer.ComponentFileDefinition
 return {
@@ -10,16 +10,18 @@ return {
             default = { STATUS.SUCCESS, STATUS.CANCELED },
             subtype = {
                 type = "enum",
-                choices = { STATUS.SUCCESS, STATUS.FAILURE, STATUS.CANCELED }
-            }
-        }
+                choices = { STATUS.SUCCESS, STATUS.FAILURE, STATUS.CANCELED },
+            },
+        },
     },
     constructor = function(opts)
         local statuses = opts.statuses
         return {
             on_complete = function(_, task, status)
-                if vim.tbl_contains(statuses, status) then task:dispose() end
-            end
+                if vim.tbl_contains(statuses, status) then
+                    task:dispose()
+                end
+            end,
         }
-    end
+    end,
 }

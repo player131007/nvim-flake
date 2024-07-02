@@ -3,7 +3,7 @@ local uv = vim.uv
 local function get_effective_line_count(bufnr)
     local count = vim.api.nvim_buf_line_count(bufnr)
     for i = count, 1, -1 do
-        local line = vim.api.nvim_buf_get_lines(bufnr, i-1, i, true)[1]
+        local line = vim.api.nvim_buf_get_lines(bufnr, i - 1, i, true)[1]
         if line ~= "" then
             return i
         end
@@ -37,10 +37,10 @@ return {
                     line_count,
                     line_count,
                     true,
-                    { string.format("[Time elapsed: %.3fs]", duration/1000) }
+                    { string.format("[Time elapsed: %.3fs]", duration / 1000) }
                 )
                 vim.bo[bufnr].modifiable = false
-            end
+            end,
         }
     end,
 }

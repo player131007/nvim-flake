@@ -7,7 +7,7 @@ return {
         local file = vim.fn.expand "%:p"
         local root_dir = vim.lsp.buf.list_workspace_folders()[1]
 
-        local status = require('overseer.constants').STATUS
+        local status = require("overseer.constants").STATUS
 
         ---@type overseer.TaskDefinition
         return {
@@ -32,7 +32,7 @@ return {
                 "-g",
                 file,
                 "-o",
-                "/tmp/a.out"
+                "/tmp/a.out",
             },
 
             strategy = "jobstart",
@@ -41,12 +41,12 @@ return {
                 { "on_complete_dispose", timeout = 300, statuses = { status.FAILURE } },
                 "on_result_diagnostics",
                 { "on_complete_really_dispose", statuses = { status.SUCCESS, status.CANCELED } },
-                "unique"
-            }
+                "unique",
+            },
         }
     end,
     tags = { overseer.TAG.BUILD },
     condition = {
-        filetype = { 'cpp' }
-    }
+        filetype = { "cpp" },
+    },
 }

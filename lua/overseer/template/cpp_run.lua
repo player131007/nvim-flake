@@ -13,7 +13,7 @@ return {
             cmd = { "/tmp/a.out" },
 
             env = {
-                ASAN_OPTIONS = "detect_leaks=0"
+                ASAN_OPTIONS = "detect_leaks=0",
             },
 
             strategy = "terminal",
@@ -23,13 +23,13 @@ return {
                 "on_exit_set_status",
                 { "on_complete_dispose", timeout = 120 },
                 "unique",
-                "cpp_run"
-            }
+                "cpp_run",
+            },
         }
     end,
 
     tags = { overseer.TAG.RUN },
     condition = {
-        filetype = { 'cpp' }
-    }
+        filetype = { "cpp" },
+    },
 }

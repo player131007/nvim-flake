@@ -1,14 +1,14 @@
 ---@diagnostic disable: undefined-global
 
 return {
-s(
-    {
-        trig = "cp",
-        name = "cp",
-        desc = "Competitive programming template"
-    },
-    fmt(
-        [=[
+    s(
+        {
+            trig = "cp",
+            name = "cp",
+            desc = "Competitive programming template",
+        },
+        fmt(
+            [=[
             #include "bits/stdc++.h"
 
             using namespace std;
@@ -77,15 +77,17 @@ s(
                 [3]
             }
         ]=],
-        {
-            d(1, function() return sn(nil, i(1, vim.fn.expand "%:t:r")) end),
-            i(2),
-            i(0)
-        },
-        {
-            delimiters = "[]",
-            repeat_duplicates = true
-        }
-    )
-)
+            {
+                d(1, function()
+                    return sn(nil, i(1, vim.fn.expand "%:t:r"))
+                end),
+                i(2),
+                i(0),
+            },
+            {
+                delimiters = "[]",
+                repeat_duplicates = true,
+            }
+        )
+    ),
 }

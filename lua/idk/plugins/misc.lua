@@ -4,23 +4,23 @@ local keymap = vim.keymap
 vim.notify = require "notify"
 
 -- lualine
-require('lualine').setup {
+require("lualine").setup {
     options = {
-        theme = 'base16',
+        theme = "base16",
         section_separators = { left = "", right = "" },
         component_separators = { left = "|", right = "|" },
-        disabled_filetypes = { "Trouble" }
-    }
+        disabled_filetypes = { "Trouble" },
+    },
 }
 
 -- nvim-autopairs
-require('nvim-autopairs').setup {
+require("nvim-autopairs").setup {
     check_ts = true,
-    map_c_h = true
+    map_c_h = true,
 }
 
 -- trouble.nvim
-local trouble = require 'trouble'
+local trouble = require "trouble"
 trouble.setup {
     focus = true,
     auto_jump = true,
@@ -37,18 +37,26 @@ trouble.setup {
     modes = {
         buffer_diagnostics = {
             mode = "diagnostics",
-            filter = { buf = 0 }
-        }
-    }
+            filter = { buf = 0 },
+        },
+    },
 }
-keymap.set("n", "<leader>xx", function() trouble.toggle "diagnostics" end)
-keymap.set("n", "<leader>xd", function() trouble.toggle "buffer_diagnostics" end)
-keymap.set("n", "<leader>gd", function() trouble.toggle "lsp_definition" end)
-keymap.set("n", "<leader>gr", function() trouble.toggle "lsp_references" end)
+keymap.set("n", "<leader>xx", function()
+    trouble.toggle "diagnostics"
+end)
+keymap.set("n", "<leader>xd", function()
+    trouble.toggle "buffer_diagnostics"
+end)
+keymap.set("n", "<leader>gd", function()
+    trouble.toggle "lsp_definition"
+end)
+keymap.set("n", "<leader>gr", function()
+    trouble.toggle "lsp_references"
+end)
 
 -- luasnip
 require("luasnip.config").set_config {
-    update_events = { "TextChanged", "TextChangedI" }
+    update_events = { "TextChanged", "TextChangedI" },
 }
 require("luasnip.loaders.from_lua").load()
 
@@ -58,14 +66,14 @@ require("hardtime").setup {
         ["<Up>"] = { "n", "x" },
         ["<Down>"] = { "n", "x" },
         ["<Left>"] = { "n", "x" },
-        ["<Right>"] = { "n", "x" }
+        ["<Right>"] = { "n", "x" },
     },
     disable_mouse = false,
     disabled_keys = {
         ["<Up>"] = {},
         ["<Down>"] = {},
         ["<Left>"] = {},
-        ["<Right>"] = {}
+        ["<Right>"] = {},
     },
-    max_count = 5
+    max_count = 5,
 }
