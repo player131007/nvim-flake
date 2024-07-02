@@ -16,7 +16,21 @@
     in {
         packages = eachSystem (pkgs: rec {
             default = neovim;
-            neovim = pkgs.callPackage ./nix/package.nix { runtimepath = [ self ]; };
+            neovim = pkgs.callPackage ./nix/package.nix {
+                extraPlugins = [
+                    (pkgs.vimUtils.buildVimPlugin {
+                        name = "nvim-config";
+                        src = with lib.fileset; toSource {
+                            root = ./.;
+                            fileset = unions [
+                                ./lua
+                                ./luasnippets
+                                ./plugin
+                            ];
+                        };
+                    })
+                ];
+            };
         });
     };
 }

@@ -7,5 +7,5 @@ local plugins = {
 }
 
 for _, plug in ipairs(plugins) do
-    require('plugins.' .. plug)
+    require('idk.plugins.' .. plug)
 end

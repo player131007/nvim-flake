@@ -11,7 +11,7 @@
 , llvmPackages
 , nixd
 
-, runtimepath ? []
+, extraPlugins ? []
 # base16/base24 colorscheme
 , colorscheme ? {
     base00 = "#191724";
@@ -36,22 +36,20 @@ let
     neovimConfig = (neovimUtils.makeNeovimConfig {
         withPython3 = false;
         withRuby = false;
-#
-        plugins = (with vimPlugins; [
-            nvim-treesitter.withAllGrammars
-        ]) ++ lib.pipe (callPackage ./sources.nix {}) [
+
+        plugins = [
+            vimPlugins.nvim-treesitter.withAllGrammars
+        ] ++ lib.pipe (callPackage ./sources.nix {}) [
             (lib.flip builtins.removeAttrs [ "override" "overrideDerivation" ])
             (lib.mapAttrsToList (name: src: vimUtils.buildVimPlugin { inherit name src; }))
-        ];
+        ] ++ extraPlugins;
     }) // {
         neovimRcContent = null;
         luaRcContent =
         let
             makeLuaList = list: "{ ${lib.concatStringsSep "," list} }";
         in ''
-            vim.opt.runtimepath:prepend ${makeLuaList (map (str: "'${str}'") runtimepath)}
             require('base16-colorscheme').setup ${makeLuaList (lib.mapAttrsToList (k: v: "${k}='${v}'") colorscheme)}
-            require "init"
         '';
     };
 
