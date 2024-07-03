@@ -48,7 +48,7 @@ keymap.set("n", "<leader>xd", function()
     trouble.toggle "buffer_diagnostics"
 end)
 keymap.set("n", "<leader>gd", function()
-    trouble.toggle "lsp_definition"
+    trouble.toggle "lsp_definitions"
 end)
 keymap.set("n", "<leader>gr", function()
     trouble.toggle "lsp_references"
