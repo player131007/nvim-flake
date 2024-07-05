@@ -21,8 +21,8 @@ cmp.setup {
         { name = "luasnip" },
         { name = "lazydev", group_index = 0 },
     },
-
     mapping = {
+        ["<C-Space>"] = mapping.complete(),
         ["<Esc>"] = mapping.close(),
         ["<C-f>"] = mapping.scroll_docs(4),
         ["<C-d>"] = mapping.scroll_docs(-4),
