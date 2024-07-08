@@ -101,10 +101,10 @@
         "homepage": "",
         "owner": "nvim-lualine",
         "repo": "lualine.nvim",
-        "rev": "e20896769ca3cd7e623f0d9f0f68c2155e1eeee2",
-        "sha256": "1bq5kcr2zwa63h1gmp97f4gq2k2ndz2xnnlcl6yyr40ghm1vjnhw",
+        "rev": "6a40b530539d2209f7dc0492f3681c8c126647ad",
+        "sha256": "17plr9wq4w73dhpyldn9kp97dip0xr3z02iny3mgcf1jmzsclv0l",
         "type": "tarball",
-        "url": "https://github.com/nvim-lualine/lualine.nvim/archive/e20896769ca3cd7e623f0d9f0f68c2155e1eeee2.tar.gz",
+        "url": "https://github.com/nvim-lualine/lualine.nvim/archive/6a40b530539d2209f7dc0492f3681c8c126647ad.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nlsp-settings.nvim": {
