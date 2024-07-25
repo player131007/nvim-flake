@@ -77,10 +77,10 @@
         "homepage": "",
         "owner": "folke",
         "repo": "lazydev.nvim",
-        "rev": "399299ca570aa82c13ee4fb1bd1304ce6baf7f05",
-        "sha256": "1a12vz2yffxwhbbk8ly01wykil3qq9vz7cqd0skabww88idy4xbw",
+        "rev": "491452cf1ca6f029e90ad0d0368848fac717c6d2",
+        "sha256": "1yc87wv6g19yj1gypfy4nl9irpb7zfqlw98vyaf8aqjgnpd0z60g",
         "type": "tarball",
-        "url": "https://github.com/folke/lazydev.nvim/archive/399299ca570aa82c13ee4fb1bd1304ce6baf7f05.tar.gz",
+        "url": "https://github.com/folke/lazydev.nvim/archive/491452cf1ca6f029e90ad0d0368848fac717c6d2.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "lsp-overloads.nvim": {
@@ -113,10 +113,10 @@
         "homepage": "",
         "owner": "tamago324",
         "repo": "nlsp-settings.nvim",
-        "rev": "b559d6e4f19a36bd4e88071a5b33183fcc1acacf",
-        "sha256": "1vlwpx8fdwficcknssmwdvqkf5wflzca1a48lmxhdhad0mp85gx8",
+        "rev": "46fdb3cd2dfed2b640fe3885f1fe83d91f5b0302",
+        "sha256": "07sbrr6c41dclgrqgfd1bxrzb5zjxxacmpy1qddhkv86qjn3r4rj",
         "type": "tarball",
-        "url": "https://github.com/tamago324/nlsp-settings.nvim/archive/b559d6e4f19a36bd4e88071a5b33183fcc1acacf.tar.gz",
+        "url": "https://github.com/tamago324/nlsp-settings.nvim/archive/46fdb3cd2dfed2b640fe3885f1fe83d91f5b0302.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nui.nvim": {
@@ -161,10 +161,10 @@
         "homepage": "",
         "owner": "neovim",
         "repo": "nvim-lspconfig",
-        "rev": "3cceca5a79b66d735cbacbf05fa0bce5f8b716ca",
-        "sha256": "19jfcqli2z3sfhhsb9ijl3b1bhwzz0m512wnqn7pjvyghqi31lqp",
+        "rev": "9c762dcd457d2ab99edb3f3433cea9865ded47ad",
+        "sha256": "0ydb8phh5iyd4k6nawlsy63cmm2pmgz41fxdsgk9259p15iv05ij",
         "type": "tarball",
-        "url": "https://github.com/neovim/nvim-lspconfig/archive/3cceca5a79b66d735cbacbf05fa0bce5f8b716ca.tar.gz",
+        "url": "https://github.com/neovim/nvim-lspconfig/archive/9c762dcd457d2ab99edb3f3433cea9865ded47ad.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-notify": {
