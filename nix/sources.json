@@ -197,10 +197,10 @@
         "homepage": "",
         "owner": "nvim-tree",
         "repo": "nvim-web-devicons",
-        "rev": "a2af6aa13a2ad3ad361d562a319a91bcd68c43a4",
-        "sha256": "12q6cinxavsspc3xpir5dd6nxl7r3pqw7krpnv4i79ji1imsfq26",
+        "rev": "5be6c4e685618b99c3210a69375b38a1202369b4",
+        "sha256": "0dz5ay92n60r7k3zir7jqznjs9jgl34d03xmn7cbzvhbad3n2m8q",
         "type": "tarball",
-        "url": "https://github.com/nvim-tree/nvim-web-devicons/archive/a2af6aa13a2ad3ad361d562a319a91bcd68c43a4.tar.gz",
+        "url": "https://github.com/nvim-tree/nvim-web-devicons/archive/5be6c4e685618b99c3210a69375b38a1202369b4.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "overseer.nvim": {
