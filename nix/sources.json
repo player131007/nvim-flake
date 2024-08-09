@@ -113,10 +113,10 @@
         "homepage": "",
         "owner": "tamago324",
         "repo": "nlsp-settings.nvim",
-        "rev": "41928e69bdba10338c9b5f7482fea77d5de741b2",
-        "sha256": "0fg3mmw65i2hkkqkbqkwzqv2xxbsyxs9zk26f9j6gcm6xq6nwnpb",
+        "rev": "d45265fcde38c9d2190d6567ed9da3265bfc9dad",
+        "sha256": "0lkc1ycazarhq5fbrajqgqnpm8fx0p2dk174gdscq1cycfsfn4j9",
         "type": "tarball",
-        "url": "https://github.com/tamago324/nlsp-settings.nvim/archive/41928e69bdba10338c9b5f7482fea77d5de741b2.tar.gz",
+        "url": "https://github.com/tamago324/nlsp-settings.nvim/archive/d45265fcde38c9d2190d6567ed9da3265bfc9dad.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nui.nvim": {
