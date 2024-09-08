@@ -10,8 +10,7 @@ require("nlspsettings").setup {
 -- lazydev.nvim
 require("lazydev").setup {
     enabled = function(root)
-        local file_exists = vim.fn.filereadable(vim.fs.joinpath(root, ".enable_lazydev")) ~= 0
-        return vim.g.lazydev_enabled and true or file_exists
+        return not vim.uv.fs_stat(root .. "/.luarc.json")
     end,
 }
 
