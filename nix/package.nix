@@ -3,7 +3,6 @@
 , neovimUtils
 , lib
 , vimPlugins
-, vimUtils
 , callPackage
 
 , clang-tools
@@ -41,7 +40,7 @@ let
             vimPlugins.nvim-treesitter.withAllGrammars
         ] ++ lib.pipe (callPackage ./sources.nix {}) [
             (lib.flip builtins.removeAttrs [ "override" "overrideDerivation" ])
-            (lib.mapAttrsToList (name: src: vimUtils.buildVimPlugin { inherit name src; }))
+            builtins.attrValues
         ] ++ extraPlugins;
     }) // {
         neovimRcContent = null;

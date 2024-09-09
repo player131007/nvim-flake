@@ -25,4 +25,4 @@ let
         else if spec.type == "file" then fetch_file name spec
         else if spec.type == "git" then throw "unimplemented"
         else throw "spec ${name} has unknown type ${builtins.toJSON spec.type}";
-in lib.mapAttrs (name: spec: spec // { inherit (fetch name spec) outPath; }) (builtins.fromJSON (builtins.readFile sources))
+in lib.mapAttrs fetch (builtins.fromJSON (builtins.readFile sources))
