@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "L3MON4D3",
         "repo": "LuaSnip",
-        "rev": "45db5addf8d0a201e1cf247cae4cdce605ad3768",
-        "sha256": "120iq5y7prppphsq1ilc7gd214rqh5v5h8wmskvq2lmhmx7n3gym",
+        "rev": "e808bee352d1a6fcf902ca1a71cee76e60e24071",
+        "sha256": "1714vkibbc4csv2d2mchilkzx6sagq0ba8k4nw26y8wfs7a9lily",
         "type": "tarball",
-        "url": "https://github.com/L3MON4D3/LuaSnip/archive/45db5addf8d0a201e1cf247cae4cdce605ad3768.tar.gz",
+        "url": "https://github.com/L3MON4D3/LuaSnip/archive/e808bee352d1a6fcf902ca1a71cee76e60e24071.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "base16-nvim": {
