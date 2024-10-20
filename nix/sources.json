@@ -149,10 +149,10 @@
         "homepage": "",
         "owner": "hrsh7th",
         "repo": "nvim-cmp",
-        "rev": "ae644feb7b67bf1ce4260c231d1d4300b19c6f30",
-        "sha256": "0fk7s6apvq4r9h82jqm5azf1zg9aklyycgh7ivnb98bw9a0ivjim",
+        "rev": "82bd4b59432d44cf5e2a5ce3a40a037a575a6623",
+        "sha256": "0x2n004m0ar8bv4x20qpirld7ih235pm1q39im6cff8rffxf4qwm",
         "type": "tarball",
-        "url": "https://github.com/hrsh7th/nvim-cmp/archive/ae644feb7b67bf1ce4260c231d1d4300b19c6f30.tar.gz",
+        "url": "https://github.com/hrsh7th/nvim-cmp/archive/82bd4b59432d44cf5e2a5ce3a40a037a575a6623.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-lspconfig": {
