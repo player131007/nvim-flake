@@ -161,10 +161,10 @@
         "homepage": "",
         "owner": "neovim",
         "repo": "nvim-lspconfig",
-        "rev": "fb41274c6418634f59d45efa808b6a8a2d6887f2",
-        "sha256": "0zbr68ibkv3vm84bxccwjpvavlkab6amyq06ljq8j5j58jymir2y",
+        "rev": "4ae8ea049034a4f1b95b3e671ab9d35c16eeafb9",
+        "sha256": "07q0qjz7immhm0avp9rhjvni4lzn2x5hqzzhhikhqj8ndd5lrslj",
         "type": "tarball",
-        "url": "https://github.com/neovim/nvim-lspconfig/archive/fb41274c6418634f59d45efa808b6a8a2d6887f2.tar.gz",
+        "url": "https://github.com/neovim/nvim-lspconfig/archive/4ae8ea049034a4f1b95b3e671ab9d35c16eeafb9.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-notify": {
