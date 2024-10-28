@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "L3MON4D3",
         "repo": "LuaSnip",
-        "rev": "787dee55ca364cc9119787165418fe93b74c1842",
-        "sha256": "0b2dhcxdi5hbws3nixd4gfj11x7y8vbacn7hqb7bqr13dp1nnqk0",
+        "rev": "2c08f32a570c07b8130144813266e21393da80d3",
+        "sha256": "103yv70awkxhrliwph09a1v4ic440n828r04dljr9c0cpl1xbldh",
         "type": "tarball",
-        "url": "https://github.com/L3MON4D3/LuaSnip/archive/787dee55ca364cc9119787165418fe93b74c1842.tar.gz",
+        "url": "https://github.com/L3MON4D3/LuaSnip/archive/2c08f32a570c07b8130144813266e21393da80d3.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "base16-nvim": {
@@ -161,10 +161,10 @@
         "homepage": "",
         "owner": "neovim",
         "repo": "nvim-lspconfig",
-        "rev": "28b205ebe73a18f401e040585106f9bafd8ff21f",
-        "sha256": "04xypd04qx396dcx0c0w750qrjvxyx5qk7rw45m37whazbcdwh0f",
+        "rev": "59a6766cbf32c7e4cf3ed685ccad7ffe1dde8c40",
+        "sha256": "0w04mply303j4mq6myygwgr54bxv7cirnj3qrq4il798bxs71vix",
         "type": "tarball",
-        "url": "https://github.com/neovim/nvim-lspconfig/archive/28b205ebe73a18f401e040585106f9bafd8ff21f.tar.gz",
+        "url": "https://github.com/neovim/nvim-lspconfig/archive/59a6766cbf32c7e4cf3ed685ccad7ffe1dde8c40.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-notify": {
