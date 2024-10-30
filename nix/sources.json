@@ -185,10 +185,10 @@
         "homepage": "",
         "owner": "nvim-treesitter",
         "repo": "nvim-treesitter-context",
-        "rev": "5bd21aa75aa9e24c0680b23fc88380cd80a53641",
-        "sha256": "0rjvmfcww4ixn9qic53y1nqi1i61fhrkwxd39d37hp721ff96h7l",
+        "rev": "a2a334900d3643de585ac5c6140b03403454124f",
+        "sha256": "1dvfrnhx2mg5fz7vin574pqaa60yp265l897kf9padyz8hp7barc",
         "type": "tarball",
-        "url": "https://github.com/nvim-treesitter/nvim-treesitter-context/archive/5bd21aa75aa9e24c0680b23fc88380cd80a53641.tar.gz",
+        "url": "https://github.com/nvim-treesitter/nvim-treesitter-context/archive/a2a334900d3643de585ac5c6140b03403454124f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-web-devicons": {
