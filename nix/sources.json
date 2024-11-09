@@ -113,10 +113,10 @@
         "homepage": "",
         "owner": "tamago324",
         "repo": "nlsp-settings.nvim",
-        "rev": "c3d2ae6c40afd2337232e42658eb8d9b7772efd5",
-        "sha256": "0pii58dcwxl7gskxdsy0s8wj14nhfydwm60p5zn6mb5d83bjisqi",
+        "rev": "537b365edbb7621c55c1aa927f10f4d7183a1ca7",
+        "sha256": "1wq4da644f74w37ia7lg4n521d0q7hh4ky0yyamr1lh73zik2amh",
         "type": "tarball",
-        "url": "https://github.com/tamago324/nlsp-settings.nvim/archive/c3d2ae6c40afd2337232e42658eb8d9b7772efd5.tar.gz",
+        "url": "https://github.com/tamago324/nlsp-settings.nvim/archive/537b365edbb7621c55c1aa927f10f4d7183a1ca7.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nui.nvim": {
@@ -185,10 +185,10 @@
         "homepage": "",
         "owner": "nvim-treesitter",
         "repo": "nvim-treesitter-context",
-        "rev": "a2a334900d3643de585ac5c6140b03403454124f",
-        "sha256": "1dvfrnhx2mg5fz7vin574pqaa60yp265l897kf9padyz8hp7barc",
+        "rev": "158377d700596367a91ea41818f76abdbf75a232",
+        "sha256": "1h67ygmv7625k3rgvk1y1b8iy9ln102vflxah1k2771j2b0s26d1",
         "type": "tarball",
-        "url": "https://github.com/nvim-treesitter/nvim-treesitter-context/archive/a2a334900d3643de585ac5c6140b03403454124f.tar.gz",
+        "url": "https://github.com/nvim-treesitter/nvim-treesitter-context/archive/158377d700596367a91ea41818f76abdbf75a232.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-web-devicons": {
