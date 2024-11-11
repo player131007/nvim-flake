@@ -53,10 +53,10 @@
         "homepage": "",
         "owner": "stevearc",
         "repo": "dressing.nvim",
-        "rev": "6ef1ca479d37d4ff66f13eed44d08912caff483a",
-        "sha256": "04crajvh4mmziz2ixdir419cjrglgrxh3m8zjkrh9xbc0g49vn8p",
+        "rev": "43b8f74e0b1e3f41e51f640f8efa3bcd401cea0d",
+        "sha256": "0ha8fiyblv0yy61lqgd7rrfsgpcy3j40ga0ghiszbp9cmr4j1fhf",
         "type": "tarball",
-        "url": "https://github.com/stevearc/dressing.nvim/archive/6ef1ca479d37d4ff66f13eed44d08912caff483a.tar.gz",
+        "url": "https://github.com/stevearc/dressing.nvim/archive/43b8f74e0b1e3f41e51f640f8efa3bcd401cea0d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "hardtime.nvim": {
@@ -209,10 +209,10 @@
         "homepage": "",
         "owner": "stevearc",
         "repo": "overseer.nvim",
-        "rev": "25a9c6439a37b680ff4b3c02554f4173c197c18b",
-        "sha256": "0pz0nhlb4cgigyc09fpgrhd5kszd3sdx5s8gxpwhia08smpk0d6d",
+        "rev": "c136856c7556c0eeb0554839ddcd499b02f66832",
+        "sha256": "0ln0xx2zqary6gixnz2d4hrwfih25dl7mbz04ls7bvk9zl3ppgzx",
         "type": "tarball",
-        "url": "https://github.com/stevearc/overseer.nvim/archive/25a9c6439a37b680ff4b3c02554f4173c197c18b.tar.gz",
+        "url": "https://github.com/stevearc/overseer.nvim/archive/c136856c7556c0eeb0554839ddcd499b02f66832.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "plenary.nvim": {
