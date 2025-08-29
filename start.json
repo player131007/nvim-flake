@@ -17,13 +17,13 @@
       "type": "Git",
       "repository": {
         "type": "GitHub",
-        "owner": "echasnovski",
+        "owner": "nvim-mini",
         "repo": "mini.clue"
       },
       "branch": "main",
       "submodules": false,
       "revision": "21fc8ad164e82da22665e94948d44a4727d6980a",
-      "url": "https://github.com/echasnovski/mini.clue/archive/21fc8ad164e82da22665e94948d44a4727d6980a.tar.gz",
+      "url": "https://github.com/nvim-mini/mini.clue/archive/21fc8ad164e82da22665e94948d44a4727d6980a.tar.gz",
       "hash": "1g1sqk3kdp7y74ds0fkh3c07whd58w3ccl0glay7mwfbf802ji1w"
     },
     "nvim-treesitter": {
