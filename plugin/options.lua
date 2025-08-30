@@ -1,8 +1,8 @@
 vim.g.mapleader = ' '
 
-vim.o.termguicolors = true
-
 vim.o.winborder = "rounded"
+
+vim.o.shiftround = true
 
 vim.o.ignorecase = true
 vim.o.smartcase = true
@@ -36,7 +36,8 @@ vim.o.scrolloff = 10
 
 vim.o.confirm = true
 
-vim.o.expandtab = true
 vim.o.tabstop = 4
-vim.o.softtabstop = 4
-vim.o.shiftwidth = 4
+
+vim.o.expandtab = true
+vim.o.softtabstop = 2
+vim.o.shiftwidth = vim.o.softtabstop

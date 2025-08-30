@@ -3,6 +3,12 @@
   appName = "nvim";
   desktopEntry = false;
 
+  initLua = /* lua */ ''
+    vim.loader.enable() -- enable this asap
+
+    vim.o.exrc = true -- has to be set early
+  '';
+
   plugins = {
     dev.config = {
       pure = lib.fileset.toSource {
