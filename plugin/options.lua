@@ -1,5 +1,7 @@
 vim.g.mapleader = ' '
 
+vim.opt.cpoptions:remove '_'
+
 vim.o.winborder = "rounded"
 
 vim.o.shiftround = true
@@ -26,7 +28,6 @@ vim.o.splitright = true
 vim.o.splitbelow = true
 
 vim.o.list = true
--- TODO: replace with vim.o
 vim.opt.listchars = {
     trail = '·',
     nbsp = '␣'
