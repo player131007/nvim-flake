@@ -42,3 +42,12 @@ vim.o.tabstop = 4
 vim.o.expandtab = true
 vim.o.softtabstop = 2
 vim.o.shiftwidth = vim.o.softtabstop
+
+vim.o.virtualedit = "block"
+
+vim.o.completeopt = "menuone,noselect,fuzzy"
+vim.o.wildoptions = "pum,fuzzy"
+
+vim.o.pumheight = 15
+
+vim.o.shortmess = "FOCaco"
