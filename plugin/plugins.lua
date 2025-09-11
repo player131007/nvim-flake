@@ -1,6 +1,9 @@
 -- guess-indent.nvim
 require('guess-indent').setup {}
 
+-- mini.icons
+require('mini.icons').setup {}
+
 -- mini.clue
 local miniclue = require 'mini.clue'
 local function insert_cursor_object_clues()

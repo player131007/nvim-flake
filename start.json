@@ -26,6 +26,19 @@
       "url": "https://github.com/nvim-mini/mini.clue/archive/21fc8ad164e82da22665e94948d44a4727d6980a.tar.gz",
       "hash": "1g1sqk3kdp7y74ds0fkh3c07whd58w3ccl0glay7mwfbf802ji1w"
     },
+    "mini.icons": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nvim-mini",
+        "repo": "mini.icons"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "f9a177c11daa7829389b7b6eaaec8b8a5c47052d",
+      "url": "https://github.com/nvim-mini/mini.icons/archive/f9a177c11daa7829389b7b6eaaec8b8a5c47052d.tar.gz",
+      "hash": "028zvjc7wyqw51jbj5r5llfkq5223wxga6qwb16ns9s71cflpgh6"
+    },
     "nvim-treesitter": {
       "type": "Git",
       "repository": {
