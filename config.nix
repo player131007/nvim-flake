@@ -13,7 +13,9 @@
     dev.config = {
       pure = lib.fileset.toSource {
         root = ./.;
-        fileset = lib.fileset.unions [ ];
+        fileset = lib.fileset.unions [
+          ./plugin
+        ];
       };
       impure = "~/nvim-flake";
     };
