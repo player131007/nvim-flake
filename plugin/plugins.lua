@@ -1,6 +1,9 @@
 -- guess-indent.nvim
 require('guess-indent').setup {}
 
+-- mini.pairs
+require('mini.pairs').setup {}
+
 -- mini.icons
 require('mini.icons').setup {}
 

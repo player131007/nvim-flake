@@ -39,6 +39,19 @@
       "url": "https://github.com/nvim-mini/mini.icons/archive/f9a177c11daa7829389b7b6eaaec8b8a5c47052d.tar.gz",
       "hash": "028zvjc7wyqw51jbj5r5llfkq5223wxga6qwb16ns9s71cflpgh6"
     },
+    "mini.pairs": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nvim-mini",
+        "repo": "mini.pairs"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "3738ea30ff33e0cbf2983dc67319a5468d25b0a9",
+      "url": "https://github.com/nvim-mini/mini.pairs/archive/3738ea30ff33e0cbf2983dc67319a5468d25b0a9.tar.gz",
+      "hash": "1l7acakgjsm3gdwygh0pyzh2h1n8wpajx1rfv7qc2hdvsdnd8krj"
+    },
     "mini.statusline": {
       "type": "Git",
       "repository": {
