@@ -4,13 +4,6 @@ require('guess-indent').setup {}
 -- mini.surround
 require('mini.surround').setup {
   mappings = {
-    add = "<leader>sa",
-    delete = "<leader>sd",
-    highlight = "<leader>sh",
-    replace = "<leader>sr",
-    find = "<leader>sf",
-    find_left = "<leader>sF",
-
     suffix_next = 'n',
     suffix_last = 'N',
   },
@@ -123,7 +116,7 @@ miniclue.setup {
   window = {
     delay = 0,
     config = {
-      width = "auto"
+      width = 50
     },
   }
 }
