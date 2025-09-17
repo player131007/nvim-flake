@@ -20,7 +20,7 @@ vim.o.breakindent = true
 
 vim.o.signcolumn = "yes"
 
-vim.o.timeoutlen = 200
+vim.o.wrap = false
 
 vim.o.cursorline = true
 
@@ -30,7 +30,9 @@ vim.o.splitbelow = true
 vim.o.list = true
 vim.opt.listchars = {
     trail = '·',
-    nbsp = '␣'
+    nbsp = '␣',
+    extends = '⟩',
+    precedes = '⟨',
 }
 
 vim.o.scrolloff = 10
