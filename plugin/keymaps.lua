@@ -68,7 +68,7 @@ vim.keymap.set('i', "<Tab>", function()
   end
 
   local row, col = unpack(vim.api.nvim_win_get_cursor(0))
-  if vim.api.nvim_buf_get_text(0, row-1, col, row-1, -1, {})[1]:match("%S") and move_parent_node_end() then
+  if vim.api.nvim_buf_get_text(0, row-1, 0, row-1, col, {})[1]:match("%S") and move_parent_node_end() then
     return
   end
 
