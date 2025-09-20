@@ -11,6 +11,8 @@
   extraBinPath = [
     pkgs.nixfmt
     pkgs.stylua
+
+    pkgs.emmylua-ls
   ];
 
   initLua = # lua
@@ -26,6 +28,7 @@
         root = ./.;
         fileset = lib.fileset.unions [
           ./plugin
+          ./lsp
         ];
       };
       impure = "~/nvim-flake";

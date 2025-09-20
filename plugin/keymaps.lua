@@ -20,6 +20,7 @@ local function get_parent_node(should_skip)
 end
 
 local function press(keys)
+  --- @diagnostic disable-next-line: redefined-local
   local keys = vim.api.nvim_replace_termcodes(keys, true, true, true)
   vim.api.nvim_feedkeys(keys, "n", false)
 end
@@ -41,6 +42,7 @@ local function move_parent_node_start()
       __lt = function(a, b) return a[1] < b[1] or (a[1] == b[1] and a[2] < b[2]) end,
     }
     local node_pos = setmetatable({ node_row, node_col }, comp)
+    --- @diagnostic disable-next-line: need-check-nil
     local cursor_pos = setmetatable({ row - 1, col }, comp)
 
     return node_pos >= cursor_pos or not node:named()
@@ -48,6 +50,7 @@ local function move_parent_node_start()
 
   if not parent then return false end
 
+  --- @diagnostic disable-next-line: redefined-local
   local row, col = parent:start()
   vim.api.nvim_win_set_cursor(0, { row + 1, col })
   return true
@@ -60,6 +63,7 @@ vim.keymap.set("i", "<Tab>", function()
   end
 
   local row, col = unpack(vim.api.nvim_win_get_cursor(0))
+  --- @diagnostic disable-next-line
   if
     vim.api.nvim_buf_get_text(0, row - 1, 0, row - 1, col, {})[1]:match("%S")
     and move_parent_node_end()
