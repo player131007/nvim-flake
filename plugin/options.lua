@@ -1,6 +1,6 @@
-vim.g.mapleader = ' '
+vim.g.mapleader = " "
 
-vim.opt.cpoptions:remove '_'
+vim.opt.cpoptions:remove("_")
 
 vim.o.winborder = "rounded"
 
@@ -12,7 +12,7 @@ vim.o.smartcase = true
 vim.o.number = true
 vim.o.relativenumber = true
 
-vim.o.mouse = 'a'
+vim.o.mouse = "a"
 
 vim.o.showmode = false
 
@@ -29,10 +29,10 @@ vim.o.splitbelow = true
 
 vim.o.list = true
 vim.opt.listchars = {
-    trail = '·',
-    nbsp = '␣',
-    extends = '⟩',
-    precedes = '⟨',
+  trail = "·",
+  nbsp = "␣",
+  extends = "⟩",
+  precedes = "⟨",
 }
 
 vim.o.scrolloff = 10

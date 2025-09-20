@@ -1,1 +1,1 @@
-vim.cmd "colorscheme wallust"
+vim.cmd("colorscheme wallust")

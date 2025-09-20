@@ -1,13 +1,24 @@
-{ inputs, lib, pkgs, ... }:
+{
+  inputs,
+  lib,
+  pkgs,
+  ...
+}:
 {
   appName = "nvim";
   desktopEntry = false;
 
-  initLua = /* lua */ ''
-    vim.loader.enable() -- enable this asap
+  extraBinPath = [
+    pkgs.nixfmt
+    pkgs.stylua
+  ];
 
-    vim.o.exrc = true -- has to be set early
-  '';
+  initLua = # lua
+    ''
+      vim.loader.enable() -- enable this asap
+
+      vim.o.exrc = true -- has to be set early
+    '';
 
   plugins = {
     dev.config = {

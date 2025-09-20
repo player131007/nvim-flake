@@ -7,13 +7,11 @@ vim.api.nvim_create_autocmd("FileType", {
     if pcall(vim.treesitter.start, args.buf) then
       vim.bo[args.buf].indentexpr = "v:lua.require('nvim-treesitter').indentexpr()"
     end
-  end
+  end,
 })
 
-vim.api.nvim_create_autocmd('TextYankPost', {
+vim.api.nvim_create_autocmd("TextYankPost", {
   group = augroup,
-  desc = 'Highlight when yanking (copying) text',
-  callback = function()
-    vim.hl.on_yank()
-  end,
+  desc = "Highlight when yanking (copying) text",
+  callback = function() vim.hl.on_yank() end,
 })

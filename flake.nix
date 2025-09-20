@@ -23,7 +23,10 @@
         in
         {
           default = pkgs.mkShellNoCC {
-            packages = [ self.packages.${system}.default.devMode pkgs.npins ];
+            packages = [
+              self.packages.${system}.default.devMode
+              pkgs.npins
+            ];
           };
         }
       );

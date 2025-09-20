@@ -1,14 +1,12 @@
-vim.keymap.set({'n', 'v'}, 'n', "'Nn'[v:searchforward]", { expr = true })
-vim.keymap.set({'n', 'v'}, 'N', "'nN'[v:searchforward]", { expr = true })
+vim.keymap.set({ "n", "v" }, "n", "'Nn'[v:searchforward]", { expr = true })
+vim.keymap.set({ "n", "v" }, "N", "'nN'[v:searchforward]", { expr = true })
 
-vim.keymap.set('n', 'U', "<cmd>redo<CR>")
+vim.keymap.set("n", "U", "<cmd>redo<CR>")
 
 local function get_parent_node(should_skip)
-  if not should_skip then
-    should_skip = function() return false end
-  end
+  if not should_skip then should_skip = function() return false end end
 
-  local node = vim.treesitter.get_node({ ignore_injections = false })
+  local node = vim.treesitter.get_node { ignore_injections = false }
   if not node then
     vim.notify("No treesitter node under cursor", vim.log.levels.ERROR)
     return nil
@@ -23,17 +21,15 @@ end
 
 local function press(keys)
   local keys = vim.api.nvim_replace_termcodes(keys, true, true, true)
-  vim.api.nvim_feedkeys(keys, 'n', false)
+  vim.api.nvim_feedkeys(keys, "n", false)
 end
 
 local function move_parent_node_end()
   local parent = get_parent_node()
-  if not parent then
-    return false
-  end
+  if not parent then return false end
 
   local row, col = parent:end_()
-  vim.api.nvim_win_set_cursor(0, { row+1, col })
+  vim.api.nvim_win_set_cursor(0, { row + 1, col })
   return true
 end
 
@@ -42,48 +38,45 @@ local function move_parent_node_start()
   local parent = get_parent_node(function(node)
     local node_row, node_col = node:start()
     local comp = {
-      __lt = function(a, b)
-        return a[1] < b[1] or (a[1] == b[1] and a[2] < b[2])
-      end
+      __lt = function(a, b) return a[1] < b[1] or (a[1] == b[1] and a[2] < b[2]) end,
     }
     local node_pos = setmetatable({ node_row, node_col }, comp)
-    local cursor_pos = setmetatable({ row-1, col }, comp)
+    local cursor_pos = setmetatable({ row - 1, col }, comp)
 
     return node_pos >= cursor_pos or not node:named()
   end)
 
-  if not parent then
-    return false
-  end
+  if not parent then return false end
 
   local row, col = parent:start()
-  vim.api.nvim_win_set_cursor(0, { row+1, col })
+  vim.api.nvim_win_set_cursor(0, { row + 1, col })
   return true
 end
 
-vim.keymap.set('i', "<Tab>", function()
+vim.keymap.set("i", "<Tab>", function()
   if vim.fn.pumvisible() ~= 0 then
-    press "<C-n>"
+    press("<C-n>")
     return
   end
 
   local row, col = unpack(vim.api.nvim_win_get_cursor(0))
-  if vim.api.nvim_buf_get_text(0, row-1, 0, row-1, col, {})[1]:match("%S") and move_parent_node_end() then
+  if
+    vim.api.nvim_buf_get_text(0, row - 1, 0, row - 1, col, {})[1]:match("%S")
+    and move_parent_node_end()
+  then
     return
   end
 
-  press "<Tab>"
+  press("<Tab>")
 end)
 
-vim.keymap.set('i', "<S-Tab>", function()
+vim.keymap.set("i", "<S-Tab>", function()
   if vim.fn.pumvisible() ~= 0 then
-    press "<C-p>"
+    press("<C-p>")
     return
   end
 
-  if move_parent_node_start() then
-    return
-  end
+  if move_parent_node_start() then return end
 
-  press "<S-Tab>"
+  press("<S-Tab>")
 end)
