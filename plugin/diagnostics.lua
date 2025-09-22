@@ -1,4 +1,4 @@
-vim.diagnostic.config({
+vim.diagnostic.config {
   virtual_lines = {
     current_line = true,
   },
@@ -11,4 +11,4 @@ vim.diagnostic.config({
     },
   },
   severity_sort = true,
-})
+}

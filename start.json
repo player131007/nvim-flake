@@ -13,6 +13,19 @@
       "url": "https://github.com/stevearc/conform.nvim/archive/b4aab989db276993ea5dcb78872be494ce546521.tar.gz",
       "hash": "1637cpq5167dm4s2llc8w0y2sicqxn9gcq0p003x1mwb3m5wxm4g"
     },
+    "fidget.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "j-hui",
+        "repo": "fidget.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "b45d21d33d61ed9295308eb6571c0a5f0f7f3765",
+      "url": "https://github.com/j-hui/fidget.nvim/archive/b45d21d33d61ed9295308eb6571c0a5f0f7f3765.tar.gz",
+      "hash": "06di2jwgj6qc8dz3w2kxvf5bgfw3q4xhcvfnnlvgjrmxhfsx2b8z"
+    },
     "guess-indent.nvim": {
       "type": "Git",
       "repository": {

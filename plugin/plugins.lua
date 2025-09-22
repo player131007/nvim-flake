@@ -123,6 +123,22 @@ miniclue.setup {
   },
 }
 
+require("fidget").setup {
+  progress = {
+    display = {
+      overrides = {
+        emmylua_ls = { name = "emmylua-ls" },
+      },
+    },
+  },
+  notification = {
+    window = {
+      winblend = 0,
+      max_width = 0.5,
+    },
+  },
+}
+
 require("conform").setup {
   formatters_by_ft = {
     lua = { "stylua" },
