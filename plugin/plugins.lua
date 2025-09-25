@@ -149,3 +149,17 @@ require("conform").setup {
   },
   format_after_save = {},
 }
+
+require("mini.indentscope").setup {
+  draw = {
+    delay = 10,
+    animation = require("mini.indentscope").gen_animation.none(),
+  },
+  symbol = "│",
+}
+local indentscope_augroup = vim.api.nvim_create_augroup("mini.indentscope", {})
+vim.api.nvim_create_autocmd("FileType", {
+  group = indentscope_augroup,
+  pattern = { "help" },
+  callback = function(args) vim.b[args.buf].miniindentscope_disable = true end,
+})
