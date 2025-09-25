@@ -34,6 +34,9 @@
           vim.lsp.config("emmylua_ls", {
             cmd = { "${lib.getExe pkgs.emmylua-ls}" },
           })
+          vim.lsp.config("nixd", {
+            cmd = { "${lib.getExe pkgs.nixd}" },
+          })
 
           require("conform").formatters = {
             stylua = { command = "${lib.getExe pkgs.stylua}" },
